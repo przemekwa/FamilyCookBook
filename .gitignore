@@ -1,11 +1,11 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+/familyCookBook-frontEnd/dist
+/familyCookBook-frontEnd/tmp
+/familyCookBook-frontEnd/out-tsc
 # Only exists if Bazel was run
-/bazel-out
+/familyCookBook-frontEnd/bazel-out
 
 # dependencies
 /familyCookBook-frontEnd/node_modules
@@ -15,7 +15,7 @@ chrome-profiler-events*.json
 speed-measure-plugin*.json
 
 # IDEs and editors
-/.idea
+/familyCookBook-frontEnd/.idea
 .project
 .classpath
 .c9/
@@ -32,14 +32,14 @@ speed-measure-plugin*.json
 .history/*
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
+/familyCookBook-frontEnd/.sass-cache
+/familyCookBook-frontEnd/connect.lock
+/familyCookBook-frontEnd/coverage
+/familyCookBook-frontEnd/libpeerconnection.log
 npm-debug.log
 yarn-error.log
 testem.log
-/typings
+/familyCookBook-frontEnd/typings
 
 # System Files
 .DS_Store
