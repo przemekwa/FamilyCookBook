@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { CookShortItemComponent } from './cook-short-item/cook-short-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
+import { CookListComponent } from './cook-list/cook-list.component';
 
 @NgModule({
   declarations: [
     
     AppComponent,
-    CookShortItemComponent
+    CookShortItemComponent,
+    RecipeEditComponent,
+    CookListComponent
   ],
   imports: [
     MatCardModule ,
