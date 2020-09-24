@@ -8,10 +8,22 @@
     
     <mat-card-content>
       <p>
-       Składniki: 
+          Składniki: <br><br>
+
+          <span *ngFor="let item of recipe.ingredients" >
+        
+        <mat-checkbox class="example-margin">{{ item }}</mat-checkbox><Br>
+        </span>
+
       </p>
     </mat-card-content>
+    <mat-card-content>
+       Przygotowanie: <br>
+       <br>
+       Rozbic kotlety schabowe lekko. Posypać majerankiem, solą. Obtoczyć w mące. Obsmazyc na oddzielnej patelni lekko, zeby tylko sie scięły. Zetrzec wszystkie warzywa. Na docelowej patelni podsmazyc 1,4 z nich, nastepnie dodac ¼, 3 kotlety, 1,4 warzyw, 3 kotlety. Zalać wodą i dodac przyprawy. Dusic na bardzo malym ogniu nawet 1,5 h. Na koniec zagęscic odrobinę mąką pszenną. Podawac z ziemniaczkami i z surówką/buraczkami.
+
+      </mat-card-content>
     <mat-card-actions>
-   
+        <button mat-button>Zmień</button>
     </mat-card-actions>
   </mat-card>

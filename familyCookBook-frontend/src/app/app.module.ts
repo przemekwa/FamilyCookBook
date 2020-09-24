@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
 import { CookListComponent } from './cook-list/cook-list.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { CookListComponent } from './cook-list/cook-list.component';
   ],
   imports: [
     MatCardModule ,
+    MatCheckboxModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule

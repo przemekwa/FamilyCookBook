@@ -13,7 +13,16 @@ export class RecipeEditComponent implements OnInit {
 
   constructor() { 
 
-    this.recipe = new Recipe("Potrawka schabowa mamy", "Dla Julka", 1,1);
+    this.recipe = new Recipe("Potrawka schabowa mamy", "Na 4 porcje", 1,1, 
+    ["6 kotletów schabowych",
+    "2 male marchewki",
+    "1/4 selera",
+    "1 mala pietruszka",
+    "Lisc laurowy - 2",
+    "Ziele ang - 2",
+    "Pieprz kolorowy (szczególnie biały, zielony)",
+    "majeranek"
+  ]);
 
   }
 

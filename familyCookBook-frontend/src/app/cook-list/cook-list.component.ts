@@ -13,11 +13,11 @@ export class CookListComponent implements OnInit {
 
   constructor() {
 
-    this.recipeList.push(new Recipe("Potrawka schabowa mamy", "Dla Julka", 1,1));
-    this.recipeList.push(new Recipe("Zupa mleczna", "",2,2));
-    this.recipeList.push(new Recipe("Zupa pomidorowa", "Dla Julka",3,3));
-    this.recipeList.push(new Recipe("Zupa ogórkowa", "Dla Julka",4,4));
-    this.recipeList.push(new Recipe("Zupa mleczna", "",5,5));
+    this.recipeList.push(new Recipe("Potrawka schabowa mamy", "Dla Julka", 1,1,[]));
+    this.recipeList.push(new Recipe("Zupa mleczna", "",2,2,[]));
+    this.recipeList.push(new Recipe("Zupa pomidorowa", "Dla Julka",3,3,[]));
+    this.recipeList.push(new Recipe("Zupa ogórkowa", "Dla Julka",4,4,[]));
+    this.recipeList.push(new Recipe("Zupa mleczna", "",5,5,[]));
     
   }
 
