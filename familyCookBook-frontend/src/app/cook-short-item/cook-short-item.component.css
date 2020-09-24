@@ -1,0 +1,15 @@
+.mat-card  {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('http://www.clker.com/cliparts/v/P/y/9/y/R/rice-bowl-black-and-white.svg');
+    background-size: cover;
+  }
+
+  
