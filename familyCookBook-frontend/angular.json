@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "familyCookBook-frontend"
+    }
+  },
+  "defaultProject": "familyCookBook-frontend",
+  "cli": {
+    "analytics": false
+  }
 }

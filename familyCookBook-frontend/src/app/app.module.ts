@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CookShortItemComponent } from './cook-short-item/cook-short-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CookShortItemComponent
   ],
   imports: [
     BrowserModule,
