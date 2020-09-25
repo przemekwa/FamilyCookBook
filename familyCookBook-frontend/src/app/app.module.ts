@@ -9,6 +9,8 @@ import {MatCardModule} from '@angular/material/card';
 import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
 import { CookListComponent } from './cook-list/cook-list.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatIconModule} from '@angular/material/icon';
+import {MatBadgeModule} from '@angular/material/badge';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     CookListComponent
   ],
   imports: [
+    MatBadgeModule,
+    MatIconModule,
     MatCardModule ,
     MatCheckboxModule,
     BrowserModule,

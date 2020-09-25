@@ -2,7 +2,7 @@
 <mat-card class="example-card">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title> {{recipe.title }} [ {{recipe.number}} ]</mat-card-title>
+      <mat-card-title matBadge="{{recipe.number}}" matBadgeOverlap="false" > {{recipe.title }}</mat-card-title>
       <mat-card-subtitle>{{recipe.subTitle }}</mat-card-subtitle>
     </mat-card-header>
     
